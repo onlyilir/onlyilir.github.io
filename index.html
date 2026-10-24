@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test page</title>
+  <style>
+    :root { --ink: #0f172a; --muted: #64748b; --bg: #f6f7fb; --card: #ffffff; --line: #e2e8f0; }
+    @media (prefers-color-scheme: dark) {
+      :root { --ink: #e2e8f0; --muted: #94a3b8; --bg: #0b1120; --card: #111a2e; --line: #1e293b; }
+    }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: var(--bg);
+           color: var(--ink); font: 16px/1.6 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; }
+    main { max-width: 520px; margin: 24px 16px; padding: 32px; background: var(--card);
+           border: 1px solid var(--line); border-radius: 14px; }
+    h1 { margin: 0 0 8px; font-size: 26px; }
+    p { margin: 0; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Test page</h1>
+    <p>This page exists to try out a website safety check-up tool on a site its owner controls. There is nothing else here.</p>
+  </main>
+</body>
+</html>
